@@ -1,177 +1,113 @@
 const RESULTS = [
   {
-    key: "emerging_self",
     title: "Emerging Self",
     content: `
-You are in a phase of becoming aware of yourself in a deeper, more honest way than before. This stage is not dramatic, loud, or externally visible. It is quiet, internal, and subtle. You may not feel confident yet, but you feel something shifting. Old explanations no longer fully satisfy you, and new ones have not fully formed. This can feel uncomfortable, but it is one of the most important phases of growth.
+You are beginning to understand yourself in a deeper and more honest way. This phase is subtle, quiet, and powerful. You are no longer running on autopilot. You are noticing your thoughts, reactions, and emotional patterns with increasing clarity.
 
-In this state, you are beginning to notice patterns instead of being controlled by them. You may catch yourself pausing, questioning, or observing your reactions rather than immediately acting on them. This does not mean you suddenly know what to do. It means you are learning how to look inward without judgment.
+There may still be uncertainty, but it no longer feels empty. It feels like space being created. Awareness is forming the foundation for future direction. You are learning that growth does not require rushing. It requires presence.
 
-You may feel emotionally sensitive or mentally reflective. That sensitivity is not weakness. It is awareness sharpening. When awareness increases, things feel closer and more vivid. This can make emotions feel heavier at first, but it is actually a sign that you are no longer disconnected from yourself.
-
-There is no urgency in this phase. You are not meant to rush clarity. You are meant to let understanding form naturally. Trying to force decisions now may create anxiety. Allow questions to exist without answers. This stage is about listening, not fixing.
-
-You are not behind. You are not late. You are not broken. You are in the early stages of alignment. What feels uncertain now will become the foundation for clarity later.
-
-This phase asks only one thing of you: honesty with yourself. Nothing more. That honesty is already changing you.
+This stage is about honesty, patience, and allowing understanding to mature naturally. You are not behind. You are becoming.
 `
   },
-
   {
-    key: "emotionally_processing",
     title: "Emotionally Processing",
     content: `
-You are actively processing emotions that were previously set aside, minimized, or postponed. This does not mean you are overwhelmed. It means your system has decided it is safe enough to feel. Emotional processing often feels tiring because it requires presence rather than avoidance.
+You are actively processing emotions that were previously ignored or postponed. Feelings surface because your system now feels safe enough to acknowledge them.
 
-You may notice emotions surfacing without obvious reasons. Memories, thoughts, or sensations may arise unexpectedly. This is not regression. It is integration. Your mind is completing emotional cycles that were left unfinished.
-
-During this stage, you may feel quieter, more inward, or less interested in constant stimulation. Productivity may feel harder. This does not mean something is wrong. It means your emotional system is doing important internal work.
-
-Emotional processing is not linear. Some days feel lighter, others heavier. Both are part of the same process. The goal is not to feel good immediately. The goal is to allow emotions to pass through rather than remain stored.
-
-This phase strengthens emotional resilience. Each feeling acknowledged loses its unconscious power. You are learning that emotions do not require immediate action to be valid.
-
-Be gentle with yourself here. You are not stuck. You are completing something.
+This phase can feel heavy, but it is deeply healing. Emotional awareness is strengthening. You are learning to feel without being consumed.
 `
   },
-
   {
-    key: "quietly_overwhelmed",
     title: "Quietly Overwhelmed",
     content: `
-You are carrying more than you openly express. On the surface, you appear functional and composed. Internally, pressure has been building slowly. This type of overwhelm is subtle, which is why it often goes unnoticed for too long.
+You are carrying more than you openly express. Responsibility has accumulated internally. This overwhelm is subtle but real.
 
-You may feel mentally tired, emotionally flat, or irritable without clear cause. Rest does not feel fully restorative because your mind remains engaged even during breaks. This is not burnout yet, but it is a warning signal.
-
-Quiet overwhelm often comes from long-term responsibility without release. You have been holding things together. That strength has a cost.
-
-You do not need to collapse to justify rest. Acknowledging internal load is enough. Naming what you are carrying reduces its weight.
-
-This stage asks for small pauses, not drastic changes. Even brief moments of disengagement help reset capacity. You are not weak. You are human under sustained demand.
-
-Relief begins with awareness.
+You do not need to collapse to justify rest. Awareness is the first release.
 `
   },
-
   {
-    key: "self_aware_but_stuck",
     title: "Self-Aware but Stuck",
     content: `
-You understand yourself better than before, yet forward movement feels blocked. This is frustrating because awareness usually promises progress. You see patterns clearly, but action feels delayed.
+You understand yourself better than before, yet movement feels paused. Awareness has arrived faster than readiness.
 
-This state appears when understanding grows faster than emotional readiness. Part of you knows what needs to change. Another part is protecting stability. That hesitation is not failure. It is self-preservation.
-
-Being stuck does not mean you are stagnant. It means integration is still happening. Change that is forced rarely lasts.
-
-This phase requires patience. Awareness is still doing its work beneath the surface. Movement will come when readiness catches up.
-
-You are not broken. You are preparing.
+This is not failure. It is preparation.
 `
   },
-
   {
-    key: "guarded_but_growing",
     title: "Guarded but Growing",
     content: `
-You are growing carefully. You are open to change, but selective about trust. Experience has taught you to move with discernment.
+You are open to growth, but selective with trust. Experience has taught you discernment.
 
-This is not fear. It is wisdom. You are learning how to engage without overexposing.
-
-You may observe longer before committing. You may share selectively. Growth here is steady and sustainable.
-
-You are not closed. You are intentional. That matters.
+This is steady, sustainable growth.
 `
   },
-
   {
-    key: "mentally_exhausted",
     title: "Mentally Exhausted",
     content: `
-Your mind is tired from constant processing. Planning, deciding, monitoring, and thinking have consumed more energy than you realize.
+Your mind has been working continuously. Decision fatigue is present.
 
-In this state, motivation feels forced and rest feels shallow. Your brain is asking for less input, not more solutions.
-
-Mental exhaustion resolves through simplicity. Fewer decisions. Fewer expectations. More quiet.
-
-You do not need inspiration right now. You need space.
+What you need is simplicity, not motivation.
 `
   },
-
   {
-    key: "seeking_direction",
     title: "Seeking Direction",
     content: `
-You feel ready for movement but unsure where to aim. Old paths feel misaligned, and new ones are not yet clear.
+You feel ready for change but unsure where to aim. Old paths feel misaligned.
 
-This is not confusion. It is transition. Direction emerges through small exploration, not certainty.
-
-Trust curiosity. It knows more than logic right now.
+Direction will come through exploration.
 `
   },
-
   {
-    key: "internally_conflicted",
     title: "Internally Conflicted",
     content: `
-Different parts of you want different outcomes. This creates tension and hesitation.
+Different parts of you want different things. This creates hesitation.
 
-Conflict does not mean dysfunction. It means complexity.
-
-Resolution comes through understanding, not force.
+Understanding resolves conflict.
 `
   },
-
   {
-    key: "rebuilding_confidence",
     title: "Rebuilding Confidence",
     content: `
-You are reconnecting with your sense of capability after doubt or disruption. Confidence is returning quietly.
+Confidence is returning slowly after doubt. Small actions rebuild trust in yourself.
 
-Each small follow-through matters. Trust is rebuilt through consistency.
-
-You are rebuilding from truth.
+Consistency matters more than speed.
 `
   },
-
   {
-    key: "detached_observer",
     title: "Detached Observer",
     content: `
-You are observing rather than reacting. This creates clarity and perspective.
+You are observing rather than reacting. This creates clarity.
 
-Detachment can be restorative when balanced.
-
-Remain aware, not disconnected.
+Balance observation with engagement.
 `
   },
-
   {
-    key: "emotionally_open",
     title: "Emotionally Open",
     content: `
-You are receptive and present. Emotions flow without resistance.
+You are receptive and emotionally present. This deepens connection.
 
-This state deepens connection but requires boundaries.
-
-Stay grounded as you engage.
+Maintain boundaries as you open.
 `
   },
-
   {
-    key: "grounded_clear",
     title: "Grounded & Clear",
     content: `
-You are centered and aligned. Thoughts are organized. Emotions are proportionate.
+You are centered, aligned, and mentally steady. Thoughts and emotions are proportionate.
 
 This is coherence, not perfection.
-
-Use this clarity gently.
 `
   }
 ];
 
-const score = parseInt(localStorage.getItem("score")) || 0;
-const result = RESULTS[score % RESULTS.length];
+const scores =
+  JSON.parse(localStorage.getItem("scenarioScores")) ||
+  new Array(12).fill(0);
+
+const highestScore = Math.max(...scores);
+const resultIndex =
+  highestScore > 0 ? scores.indexOf(highestScore) : 0;
+
+const result = RESULTS[resultIndex];
 
 document.getElementById("type").innerText = result.title;
 document.getElementById("result").innerHTML = result.content;
