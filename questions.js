@@ -4,7 +4,7 @@ const questions = [
   "What drains your energy the most right now?",
   "How do you handle emotional pressure?",
   "What feels hardest to express honestly?",
-  "How do you react to responsibility?",
+  "How do you react to the responsibility?",
   "What are you searching for at this stage of life?",
   "How do you treat your own needs?",
   "What feels unresolved inside you?",
