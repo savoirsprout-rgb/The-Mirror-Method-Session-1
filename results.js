@@ -1,173 +1,177 @@
-const RESULTS = {
-  emerging_self: {
+const RESULTS = [
+  {
+    key: "emerging_self",
     title: "Emerging Self",
     content: `
-You are in a stage of quiet awakening. Nothing dramatic is happening on the outside, but internally something has shifted. You are beginning to see yourself more clearly—not in a judgmental way, but with curiosity. This phase is not about answers; it is about noticing. You may feel slightly unsettled, as if old assumptions no longer fully fit, yet no new identity has formed. That uncertainty is not weakness—it is awareness forming.
+You are in a phase of becoming aware of yourself in a deeper, more honest way than before. This stage is not dramatic, loud, or externally visible. It is quiet, internal, and subtle. You may not feel confident yet, but you feel something shifting. Old explanations no longer fully satisfy you, and new ones have not fully formed. This can feel uncomfortable, but it is one of the most important phases of growth.
 
-In this state, you are learning how to observe your thoughts instead of being consumed by them. You may catch yourself pausing before reacting, questioning patterns you once accepted without thought, or sensing emotional undercurrents you previously ignored. This does not mean you suddenly know what to do. It means you are finally allowing yourself to look honestly.
+In this state, you are beginning to notice patterns instead of being controlled by them. You may catch yourself pausing, questioning, or observing your reactions rather than immediately acting on them. This does not mean you suddenly know what to do. It means you are learning how to look inward without judgment.
 
-Emerging Self is a gentle phase. There is no rush here. Growth is not loud right now—it is subtle, almost invisible. You may feel behind others, but comparison does not apply in this stage. Awareness unfolds at its own pace. Forcing clarity will only create resistance. Allowing it creates space.
+You may feel emotionally sensitive or mentally reflective. That sensitivity is not weakness. It is awareness sharpening. When awareness increases, things feel closer and more vivid. This can make emotions feel heavier at first, but it is actually a sign that you are no longer disconnected from yourself.
 
-You might notice increased sensitivity—emotionally or mentally. This is not fragility; it is perception sharpening. When awareness expands, things feel closer, clearer, sometimes heavier. That does not mean you are regressing. It means you are no longer numb to yourself.
+There is no urgency in this phase. You are not meant to rush clarity. You are meant to let understanding form naturally. Trying to force decisions now may create anxiety. Allow questions to exist without answers. This stage is about listening, not fixing.
 
-This stage asks for patience. You do not need to fix anything yet. You do not need a plan. Your only task is honesty—with yourself, quietly. Let insights arrive without interrogation. Let questions exist without answers. This is the soil where real change begins.
+You are not behind. You are not late. You are not broken. You are in the early stages of alignment. What feels uncertain now will become the foundation for clarity later.
 
-Emerging Self is not a destination. It is a doorway. And you are standing in it, steady enough to remain, curious enough to continue, and grounded enough to trust that clarity will come when it is ready.
+This phase asks only one thing of you: honesty with yourself. Nothing more. That honesty is already changing you.
 `
   },
 
-  emotionally_processing: {
+  {
+    key: "emotionally_processing",
     title: "Emotionally Processing",
     content: `
-You are actively working through emotions rather than avoiding them. This does not mean you are overwhelmed—it means you are allowing feelings to exist without immediately suppressing or escaping them. Emotional processing often feels tiring because it requires presence. You may feel reflective, quieter than usual, or mentally occupied by inner dialogue.
+You are actively processing emotions that were previously set aside, minimized, or postponed. This does not mean you are overwhelmed. It means your system has decided it is safe enough to feel. Emotional processing often feels tiring because it requires presence rather than avoidance.
 
-In this state, emotions may surface without clear triggers. Old memories, unresolved conversations, or subtle disappointments can rise unexpectedly. This is not regression. It is your system integrating experiences that were previously postponed. Emotional processing is not linear, and clarity does not arrive all at once.
+You may notice emotions surfacing without obvious reasons. Memories, thoughts, or sensations may arise unexpectedly. This is not regression. It is integration. Your mind is completing emotional cycles that were left unfinished.
 
-You may find yourself needing more space, more rest, or fewer distractions. This is your mind asking for room to complete unfinished emotional cycles. Pushing productivity during this stage often leads to frustration. Allowing slowness allows resolution.
+During this stage, you may feel quieter, more inward, or less interested in constant stimulation. Productivity may feel harder. This does not mean something is wrong. It means your emotional system is doing important internal work.
 
-There may be moments where emotions feel contradictory—sadness mixed with relief, calm mixed with heaviness. This is normal. Emotional processing rarely fits clean labels. What matters is that you are staying present instead of reacting impulsively.
+Emotional processing is not linear. Some days feel lighter, others heavier. Both are part of the same process. The goal is not to feel good immediately. The goal is to allow emotions to pass through rather than remain stored.
 
-This stage strengthens emotional resilience. Each emotion acknowledged loses its power to control you unconsciously. You are learning that feelings do not require immediate action to be valid.
+This phase strengthens emotional resilience. Each feeling acknowledged loses its unconscious power. You are learning that emotions do not require immediate action to be valid.
 
-Trust this phase. You are not stuck—you are integrating. Once emotions are processed, clarity naturally follows. There is nothing to fix here. Only to feel, notice, and allow completion.
+Be gentle with yourself here. You are not stuck. You are completing something.
 `
   },
 
-  quietly_overwhelmed: {
+  {
+    key: "quietly_overwhelmed",
     title: "Quietly Overwhelmed",
     content: `
-You are carrying more than you let on. On the surface, you may appear functional, composed, even calm—but internally, there is a steady accumulation of pressure. Tasks, expectations, emotions, and responsibilities are stacking quietly. Nothing has exploded, but everything feels heavier than it should.
+You are carrying more than you openly express. On the surface, you appear functional and composed. Internally, pressure has been building slowly. This type of overwhelm is subtle, which is why it often goes unnoticed for too long.
 
-This state is deceptive because it doesn’t look like crisis. You are still moving forward, still responding, still showing up. Yet internally, your capacity feels stretched. Rest does not feel fully restorative because your mind never fully disengages.
+You may feel mentally tired, emotionally flat, or irritable without clear cause. Rest does not feel fully restorative because your mind remains engaged even during breaks. This is not burnout yet, but it is a warning signal.
 
-Quiet overwhelm often comes from prolonged responsibility without adequate release. You may feel irritable without knowing why, mentally fatigued, or emotionally flat. These are signals—not failures. They indicate a need for recalibration, not collapse.
+Quiet overwhelm often comes from long-term responsibility without release. You have been holding things together. That strength has a cost.
 
-You do not need to do less immediately. You need to acknowledge what you are carrying. Naming internal load reduces its weight. Silence amplifies pressure; awareness diffuses it.
+You do not need to collapse to justify rest. Acknowledging internal load is enough. Naming what you are carrying reduces its weight.
 
-This stage asks for gentleness with boundaries. Even small pauses matter. Even short moments of disengagement help reset capacity. You are not weak for feeling this way. You are human under sustained demand.
+This stage asks for small pauses, not drastic changes. Even brief moments of disengagement help reset capacity. You are not weak. You are human under sustained demand.
 
-Quiet overwhelm resolves when pressure is seen, not ignored. You are closer to balance than you think.
+Relief begins with awareness.
 `
   },
 
-  self_aware_but_stuck: {
+  {
+    key: "self_aware_but_stuck",
     title: "Self-Aware but Stuck",
     content: `
-You understand yourself better than before, yet forward movement feels blocked. This can be frustrating because awareness usually promises progress. You see patterns, habits, and emotional responses clearly—but insight alone has not translated into change.
+You understand yourself better than before, yet forward movement feels blocked. This is frustrating because awareness usually promises progress. You see patterns clearly, but action feels delayed.
 
-This state often appears when growth outpaces emotional readiness. You know what needs to shift, but part of you is still protecting stability. That hesitation is not failure. It is self-preservation negotiating change.
+This state appears when understanding grows faster than emotional readiness. Part of you knows what needs to change. Another part is protecting stability. That hesitation is not failure. It is self-preservation.
 
-Being self-aware but stuck can feel like standing at a threshold. You are not lost, but you are not moving either. The tension comes from knowing and not yet acting. This phase requires compassion, not pressure.
+Being stuck does not mean you are stagnant. It means integration is still happening. Change that is forced rarely lasts.
 
-Change that is forced rarely lasts. Sustainable change emerges when understanding aligns with emotional safety. Right now, alignment is still forming.
+This phase requires patience. Awareness is still doing its work beneath the surface. Movement will come when readiness catches up.
 
-This stage asks for patience with integration. Awareness is still doing its work beneath the surface. Trust that movement will come when readiness catches up.
-
-Stuck does not mean stagnant. It means preparation is ongoing.
+You are not broken. You are preparing.
 `
   },
 
-  guarded_but_growing: {
+  {
+    key: "guarded_but_growing",
     title: "Guarded but Growing",
     content: `
-You are opening slowly, cautiously. Growth is happening, but trust is selective. You have learned from experience that openness without discernment can be costly. Now, you are choosing awareness without vulnerability overload.
+You are growing carefully. You are open to change, but selective about trust. Experience has taught you to move with discernment.
 
-This state reflects wisdom, not fear. You are learning how to engage without overexposing. Growth does not require complete transparency—it requires safety.
+This is not fear. It is wisdom. You are learning how to engage without overexposing.
 
-You may test situations emotionally before committing fully. You may share selectively, observe longer, and move deliberately. This is not avoidance; it is calibration.
+You may observe longer before committing. You may share selectively. Growth here is steady and sustainable.
 
-Guarded growth builds resilience. You are strengthening boundaries while expanding capacity. Over time, this creates stable confidence rather than fragile openness.
-
-You are not closed. You are discerning. That distinction matters.
+You are not closed. You are intentional. That matters.
 `
   },
 
-  mentally_exhausted: {
+  {
+    key: "mentally_exhausted",
     title: "Mentally Exhausted",
     content: `
-Your mind is tired. Not from thinking poorly, but from thinking constantly. Decision-making, planning, monitoring, and processing have consumed more energy than you realize. Mental exhaustion often hides behind productivity.
+Your mind is tired from constant processing. Planning, deciding, monitoring, and thinking have consumed more energy than you realize.
 
-In this state, concentration feels harder, motivation feels forced, and rest feels shallow. Your brain is asking for reduced input, not more solutions.
+In this state, motivation feels forced and rest feels shallow. Your brain is asking for less input, not more solutions.
 
-Mental exhaustion resolves through simplicity. Fewer decisions. Fewer expectations. More mental quiet. This is not laziness—it is neurological recovery.
+Mental exhaustion resolves through simplicity. Fewer decisions. Fewer expectations. More quiet.
 
-You do not need inspiration right now. You need space. Give your mind permission to rest without guilt.
-
-Clarity returns when noise decreases.
+You do not need inspiration right now. You need space.
 `
   },
 
-  seeking_direction: {
+  {
+    key: "seeking_direction",
     title: "Seeking Direction",
     content: `
-You are ready for movement but unsure where to aim. This state carries restlessness, curiosity, and a subtle sense of urgency. You feel capable, but direction feels blurred.
+You feel ready for movement but unsure where to aim. Old paths feel misaligned, and new ones are not yet clear.
 
-Seeking direction is not confusion—it is transition. Old paths no longer feel aligned, and new ones are not yet defined. This space is uncomfortable but necessary.
+This is not confusion. It is transition. Direction emerges through small exploration, not certainty.
 
-Direction emerges through experimentation, not certainty. Small steps reveal alignment faster than overthinking.
-
-Trust curiosity. It points where logic cannot yet see.
+Trust curiosity. It knows more than logic right now.
 `
   },
 
-  internally_conflicted: {
+  {
+    key: "internally_conflicted",
     title: "Internally Conflicted",
     content: `
-You are holding opposing truths simultaneously. Different parts of you want different outcomes. This creates tension, hesitation, and emotional friction.
+Different parts of you want different outcomes. This creates tension and hesitation.
 
-Conflict does not mean dysfunction. It means complexity. Integration requires listening to all sides before choosing.
+Conflict does not mean dysfunction. It means complexity.
 
-This stage asks for patience. Resolution comes through understanding, not force.
-
-Let contradiction exist until clarity forms.
+Resolution comes through understanding, not force.
 `
   },
 
-  rebuilding_confidence: {
+  {
+    key: "rebuilding_confidence",
     title: "Rebuilding Confidence",
     content: `
-You are reconnecting with your sense of capability after doubt or disruption. Confidence here is quiet, cautious, and authentic.
+You are reconnecting with your sense of capability after doubt or disruption. Confidence is returning quietly.
 
-This is not about proving anything. It is about trusting yourself again through consistency.
+Each small follow-through matters. Trust is rebuilt through consistency.
 
-Each small follow-through matters. Confidence grows through evidence, not affirmation.
-
-You are rebuilding from truth, not illusion.
+You are rebuilding from truth.
 `
   },
 
-  detached_observer: {
+  {
+    key: "detached_observer",
     title: "Detached Observer",
     content: `
-You are watching rather than reacting. Emotional distance allows perspective. This state is not numbness—it is awareness without entanglement.
+You are observing rather than reacting. This creates clarity and perspective.
 
-Detachment can be restorative when intentional. It creates clarity and resets emotional charge.
+Detachment can be restorative when balanced.
 
-Remain observant, but stay connected. Balance matters.
+Remain aware, not disconnected.
 `
   },
 
-  emotionally_open: {
+  {
+    key: "emotionally_open",
     title: "Emotionally Open",
     content: `
-You are receptive, present, and emotionally accessible. Feelings flow freely without resistance. This is a state of trust—with yourself and experience.
+You are receptive and present. Emotions flow without resistance.
 
-Openness increases connection but requires boundaries. Stay grounded as you engage.
+This state deepens connection but requires boundaries.
 
-This is a powerful state when balanced.
+Stay grounded as you engage.
 `
   },
 
-  grounded_clear: {
+  {
+    key: "grounded_clear",
     title: "Grounded & Clear",
     content: `
-You are centered, steady, and internally aligned. Thoughts feel organized. Emotions feel proportionate. Action feels natural.
+You are centered and aligned. Thoughts are organized. Emotions are proportionate.
 
-This is not perfection. It is coherence. You are responding rather than reacting.
+This is coherence, not perfection.
 
-Use this clarity gently. It will evolve as life shifts.
+Use this clarity gently.
 `
   }
-};
+];
 
-export default RESULTS;
+const score = parseInt(localStorage.getItem("score")) || 0;
+const result = RESULTS[score % RESULTS.length];
+
+document.getElementById("type").innerText = result.title;
+document.getElementById("result").innerHTML = result.content;
