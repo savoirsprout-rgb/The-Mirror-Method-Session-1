@@ -4,7 +4,7 @@ const RESULTS = [
     content: `
 You are beginning to understand yourself in a deeper and more honest way. This phase is subtle, quiet, and powerful. You are no longer running on autopilot. You are noticing your thoughts, reactions, and emotional patterns with increasing clarity.
 
-There may still be uncertainty, but it no longer feels empty. It feels like space being created. Awareness is forming the foundation for future direction. You are learning that growth does not require rushing. It  requires presence.
+There may still be uncertainty, but it no longer feels empty. It feels like space being created. Awareness is forming the foundation for future direction. You are learning that growth does not require rushing. It  requires presence
 
 This stage is about honesty, patience, and allowing understanding to mature naturally. You are not behind. You are becoming.
 `
